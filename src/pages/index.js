@@ -1,0 +1,5 @@
+export {default as MainPage} from './mainpage/MainPage'
+export {default as Shop} from './shop/Shop'
+export {default as ProductDetails} from './product/ProductDetails'
+export {default as ContactUs} from './contact/ContactUs'
+export {default as Table} from './invoices/Table'

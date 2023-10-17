@@ -1,0 +1,161 @@
+accordions.html                 
+spinners.html                                      
+clipboard.html                            
+compose.html                              
+counter.html                     
+data-tables.html             
+typography.html          
+drag-drop.html                       
+dropdowns.html                
+toastr.html
+tooltip.html
+scrollbar.html                             
+sweetalerts.html                      
+tab.html                         
+tables-basic.html                                  
+tax-settings.html         rating.html
+settings.html             form-basic-inputs.html    
+rangeslider.html          form-horizontal.html      
+popover.html              form-input-groups.html    
+alerts.html               form-mask.html            
+progress.html             form-validation.html      
+avatar.html               form-vertical.html        
+badges.html               form-wizard.html          
+placeholders.html         social-links.html
+offcanvas.html            social-settings.html
+horizontal-timeline.html  README.md           
+breadcrumbs.html          icon-feather.html         
+buttongroup.html          icon-flag.html            
+buttons.html              icon-fontawesome.html     
+cards.html                icon-ionic.html           
+carousel.html             icon-material.html        
+chart-apex.html           icon-pe7.html             
+chart-c3.html             icon-simpleline.html      
+chart-flot.html           icon-themify.html         
+chart-js.html             icon-typicon.html        
+chart-morris.html         icon-weather.html                  
+chart-peity.html                         
+
+
+name 
+small description
+price
+available colors
+available sizes
+promotions
+images
+description
+specification
+reviews(2)
+tag
+related  products
+main image     
+images       
+              
+         
+                   
+
+ 
+               
+              
+          
+                          
+                         
+
+
+
+
+
+edit-blog.html
+edit-books.html
+edit-department.html
+edit-exam.html
+edit-fees.html
+edit-invoice.html 
+edit-room.html
+edit-sports.html
+edit-student.html
+edit-subject.html 
+edit-teacher.html
+edit-time-table.html 
+edit-transport.html
+add-blog.html 
+add-books.html
+add-department.html
+add-events.html
+add-exam.html
+add-expenses.html
+add-fees-collection.html
+add-fees.html
+add-holiday.html
+add-invoice.html
+add-room.html 
+add-salary.html
+add-sports.html
+add-student.html 
+add-subject.html
+add-teacher.html 
+add-time-table.html
+add-transport.html
+text-editor.html
+
+
+seo-settings.html
+inbox.html
+index.html
+invoice-grid.html 
+invoices-cancelled.html
+departments.html
+invoices-draft.html 
+invoices.html  
+invoices-overdue.html 
+images.html
+teacher-dashboard.html
+teacher-details.html
+teachers-grid.html
+teachers.html
+timeline.html
+time-table.html
+register.html
+ribbon.html
+salary.html
+sports.html
+stickynote.html
+student-dashboard.html
+student-details.html
+students-grid.html
+students.html
+subjects.html
+error-404.html
+event.html 
+exam.html 
+expenses.html
+fees-collections.html
+fees.html
+forgot-password.html
+localization-details.html
+login.html
+media.html
+modal.html
+notification.html
+others-settings.html
+pagination.html
+payment-settings.html
+pending-blog.html
+profile.html
+bank-settings.html
+grid.html 
+blank-page.html
+holiday.html
+blog-details.html
+blog.html 
+hostel.html
+email-settings.html 
+invoices-paid.html
+invoices-recurring.html
+transport.html
+invoices-settings.html
+library.html
+video.html
+lightbox.html
+view-invoice.html
