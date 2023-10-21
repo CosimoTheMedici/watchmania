@@ -10,15 +10,33 @@ const Insta = () => {
         //className: "center",
         centerMode: true,
         infinite: true,
-        //centerPadding: "60px",
+        //margingLeft: "60px",
         slidesToShow: 6,
-        speed: 500
+        speed: 500,
+        swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true,
       };
   return (
     <div class="instagram">
-        <div class="container-fluid">
-          <div class="row">
-            {/* <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+        <div class="container-fluid" >
+           
+            <Slider {...settings}>
+
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                //style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           <div style={{margingLeft:"15px"}}>
               <div
                 class="instagram__item set-bg"
                 data-setbg="img/instagram/insta-1.jpg"
@@ -29,74 +47,115 @@ const Insta = () => {
                   <a href="#">@ ashion_shop</a>
                 </div>
               </div>
-            </div> */}
-            <Slider {...settings}>
-            {randomIterations.map((item, index) => (
+            </div>
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           <div style={{margingLeft:"15px"}}>
+              <div
+                class="instagram__item set-bg"
+                data-setbg="img/instagram/insta-1.jpg"
+                style={{ backgroundImage: `url(${images.category1})` }}
+              >
+                <div class="instagram__text">
+                  <i class="fa fa-instagram"></i>
+                  <a href="#">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+           
+            {/* {randomIterations.map((item, index) => (
        
             
-        <InstaCards key={index} //data={Object.values(item)} 
-        />
+        // <InstaCards key={index} //data={Object.values(item)} 
+        // />
+        
+
        
 
-      ))}
+      ))} */}
       </Slider>
-
-            {/* <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-              <div
-                class="instagram__item set-bg"
-                data-setbg="img/instagram/insta-2.jpg"
-              >
-                <div class="instagram__text">
-                  <i class="fa fa-instagram"></i>
-                  <a href="#">@ ashion_shop</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-              <div
-                class="instagram__item set-bg"
-                data-setbg="img/instagram/insta-3.jpg"
-              >
-                <div class="instagram__text">
-                  <i class="fa fa-instagram"></i>
-                  <a href="#">@ ashion_shop</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-              <div
-                class="instagram__item set-bg"
-                data-setbg="img/instagram/insta-4.jpg"
-              >
-                <div class="instagram__text">
-                  <i class="fa fa-instagram"></i>
-                  <a href="#">@ ashion_shop</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-              <div
-                class="instagram__item set-bg"
-                data-setbg="img/instagram/insta-5.jpg"
-              >
-                <div class="instagram__text">
-                  <i class="fa fa-instagram"></i>
-                  <a href="#">@ ashion_shop</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-              <div
-                class="instagram__item set-bg"
-                data-setbg="img/instagram/insta-6.jpg"
-              >
-                <div class="instagram__text">
-                  <i class="fa fa-instagram"></i>
-                  <a href="#">@ ashion_shop</a>
-                </div>
-              </div>
-            </div> */}
-          </div>
         </div>
       </div>
   )

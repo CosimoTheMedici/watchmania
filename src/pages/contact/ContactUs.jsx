@@ -62,7 +62,6 @@ const ContactUs = () => {
                   <form action="#">
                     <input type="text" placeholder="Name" />
                     <input type="text" placeholder="Email" />
-                    <input type="text" placeholder="Website" />
                     <textarea placeholder="Message"></textarea>
                     <button type="submit" class="site-btn">
                       Send Message

@@ -27,6 +27,82 @@ const items = [
   { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
   { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
   { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/uylshku94fzkncpiwxqf" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/zc4l52kkq5ckh2fplsbv" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/t7uovvup4njs4oi1zvij" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/et9yukvhryufnlcl6tm9" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/uylshku94fzkncpiwxqf" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/zc4l52kkq5ckh2fplsbv" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/t7uovvup4njs4oi1zvij" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/et9yukvhryufnlcl6tm9" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/uylshku94fzkncpiwxqf" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/zc4l52kkq5ckh2fplsbv" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/t7uovvup4njs4oi1zvij" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/et9yukvhryufnlcl6tm9" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/uylshku94fzkncpiwxqf" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/zc4l52kkq5ckh2fplsbv" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/t7uovvup4njs4oi1zvij" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/et9yukvhryufnlcl6tm9" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/uylshku94fzkncpiwxqf" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/zc4l52kkq5ckh2fplsbv" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/t7uovvup4njs4oi1zvij" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/et9yukvhryufnlcl6tm9" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/uylshku94fzkncpiwxqf" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/zc4l52kkq5ckh2fplsbv" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/t7uovvup4njs4oi1zvij" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/et9yukvhryufnlcl6tm9" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/uylshku94fzkncpiwxqf" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/zc4l52kkq5ckh2fplsbv" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/t7uovvup4njs4oi1zvij" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/et9yukvhryufnlcl6tm9" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/rssqmtcc9uktfysg7off" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/uylshku94fzkncpiwxqf" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/zc4l52kkq5ckh2fplsbv" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/t7uovvup4njs4oi1zvij" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/et9yukvhryufnlcl6tm9" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/lprcew5glxcroojady0x" },
+  { title: "Furry hooded parka", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Flowy striped skirt", price: "$ 49.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Croc-effect bag", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
+  { title: "Dark wash Xavi jeans", price: "$ 59.0", cloudinaryPublicId: "watches/u5za2m8pzfqztzwx0a8y" },
   // Add more items here
 ];
 
@@ -52,11 +128,11 @@ const Item = ({ title, price, cloudinaryPublicId }) => {
               <a href="#">{title}</a>
             </h6>
             <div className="rating">
-              <i className="fa fa-star"></i>
-              <i className="fa fa-star"></i>
-              <i className="fa fa-star"></i>
-              <i className="fa fa-star"></i>
-              <i className="fa fa-star"></i>
+              <i className="fa fa-star icon__padding"></i>
+              <i className="fa fa-star icon__padding"></i>
+              <i className="fa fa-star icon__padding"></i>
+              <i className="fa fa-star icon__padding"></i>
+              <i className="fa fa-star icon__padding"></i>
             </div>
             <div className="product__price">{price}</div>
           </div>
@@ -74,7 +150,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => (
           key={index}
           href="#"
           onClick={() => onPageChange(index + 1)}
-          className={currentPage === index + 1 ? "active" : ""}
+          className={currentPage === index + 1 ? "pagination_activeness" : ""}
         >
           {index + 1}
         </a>
@@ -207,16 +283,16 @@ const [currentPage, setCurrentPage] = useState(1);
                         </div>
                         <div class="sidebar__color">
                             <div class="section-title">
-                                <h4>Shop by size</h4>
+                                <h4>Shop by Color</h4>
                             </div>
                             <div class="size__list color__list">
                                 <label for="black">
-                                    Blacks
+                                    Black
                                     <input type="checkbox" id="black"/>
                                     <span class="checkmark"></span>
                                 </label>
                                 <label for="whites">
-                                    Whites
+                                    White
                                     <input type="checkbox" id="whites"/>
                                     <span class="checkmark"></span>
                                 </label>
@@ -489,7 +565,7 @@ const [currentPage, setCurrentPage] = useState(1);
     {/* <!-- Shop Section End -->*/}
 
     {/* <!-- Instagram Begin -->*/}
-    <div class="instagram">
+    {/* <div class="instagram">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-4 p-0">
@@ -542,7 +618,7 @@ const [currentPage, setCurrentPage] = useState(1);
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
     {/* <!-- Instagram End -->*/}
 
   

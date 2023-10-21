@@ -3,7 +3,7 @@ import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 
 import {  MainPage,Shop,ProductDetails,ContactUs } from '../pages'
 
-export const router = createBrowserRouter([
+export const  router = createBrowserRouter([
    
     {
         path:'/',

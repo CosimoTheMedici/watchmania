@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { images } from '../../assets/img'
 import { TrendCards } from '../../components/customComponents'
 
 const Trends = () => {
+
+ 
   return (
     <section class="trend spad">
         <div class="container">

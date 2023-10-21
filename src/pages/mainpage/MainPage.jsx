@@ -1,12 +1,18 @@
-import React,{ useState } from "react";
+import React,{ useEffect, useState } from "react";
 import { images } from "../../assets/img";
 import { ProductCards } from "../../components/customComponents";
 import { items } from "../../utils/testArray";
 import ModalComponent from "../../components/customComponents/modal/Modal";
 import { Insta, Trends } from "../../features";
 import MainLayoutAuth from "../../layout/layouts/mainLayoutAuth";
+import Gallery from 'react-image-gallery';
+
 
 const MainPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    console.log("we landed")
+  }, []);
   const handleToggleViewProduct = (item = {}) => {
     //setCurrentViewRecord(item);
     //setModalViewProduct(!modalViewProduct);
@@ -35,14 +41,16 @@ function shuffleArray(array) {
       {/* <!-- Header Section End --> */}
 
       {/* <!-- Categories Section Begin --> */}
-      <section class="categories">
+      {/* <section class="categories">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6 p-0">
               <div
                 class="categories__item categories__large__item set-bg"
-                style={{ backgroundImage: `url(${images.category1})` }}
+                style={{ backgroundImage: `url(${images.category7})` }}
               >
+                <div class="row">
+                <div class="col-lg-6 p-0">
                 <div class="categories__text">
                   <h1>Women’s fashion</h1>
                   <p>
@@ -52,7 +60,17 @@ function shuffleArray(array) {
                   </p>
                   <a href="#">Shop now</a>
                 </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                <div class="categories__text"   style={{ backgroundImage: `url(https://res.cloudinary.com/dk9u6to8o/watches/rssqmtcc9uktfysg7off)` }}>
+                <img
+                      src={`https://res.cloudinary.com/dk9u6to8o/watches/rssqmtcc9uktfysg7off`}
+                      alt={`img`}
+                    />
+                </div>
+                </div>
               </div>
+            </div>
             </div>
             <div class="col-lg-6">
               <div class="row">
@@ -108,7 +126,7 @@ function shuffleArray(array) {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!-- Categories Section End --> */}
 
       {/* <!-- Product Section Begin --> */}
@@ -128,9 +146,10 @@ function shuffleArray(array) {
                 </li>
                 <li data-filter=".women">Women’s</li>
                 <li data-filter=".men">Men’s</li>
+                <li data-filter=".kid">Teens</li>
                 <li data-filter=".kid">Kid’s</li>
                 <li data-filter=".accessories">Accessories</li>
-                <li data-filter=".cosmetic">Cosmetics</li>
+                
               </ul>
             </div>
           </div>
@@ -428,7 +447,7 @@ function shuffleArray(array) {
       {/* <!-- Product Section End --> */}
 
       {/* <!-- Banner Section Begin --> */}
-      <section class="banner set-bg" data-setbg="img/banner/banner-1.jpg">
+      {/* <section class="banner set-bg" data-setbg="img/banner/banner-1.jpg">
         <div class="container">
           <div class="row">
             <div class="col-xl-7 col-lg-8 m-auto">
@@ -458,7 +477,7 @@ function shuffleArray(array) {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!-- Banner Section End --> */}
 
       {/* <!-- Trend Section Begin --> */}
@@ -466,7 +485,7 @@ function shuffleArray(array) {
       {/* <!-- Trend Section End --> */}
 
       {/* <!-- Discount Section Begin --> */}
-      <section class="discount">
+      {/* <section class="discount">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 p-0">
@@ -506,7 +525,7 @@ function shuffleArray(array) {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!-- Discount Section End --> */}
 
       {/* <!-- Services Section Begin --> */}
@@ -517,14 +536,14 @@ function shuffleArray(array) {
               <div class="services__item">
                 <i class="fa fa-car"></i>
                 <h6>Free Shipping</h6>
-                <p>For all oder over $99</p>
+                <p>For all Orders over 9999</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="services__item">
                 <i class="fa fa-money"></i>
-                <h6>Money Back Guarantee</h6>
-                <p>If good have Problems</p>
+                <h6>No Money Back Guarantee</h6>
+                <p>Case By case</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
@@ -547,7 +566,8 @@ function shuffleArray(array) {
       {/* <!-- Services Section End --> */}
 
       {/* <!-- Instagram Begin --> */}
-      <Insta />
+      {/* <Insta /> */}
+     
       {/* <!-- Instagram End --> */}
 
    

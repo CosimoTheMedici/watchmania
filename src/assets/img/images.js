@@ -2,6 +2,9 @@ import payment_1 from './payment/payment-1.png';
 import payment_2 from './payment/payment-2.png';
 import payment_3 from './payment/payment-3.png';
 import payment_4 from './payment/payment-4.png';
+import payment_5 from './payment/payment-5.png';
+import payment_6 from './payment/payment-6.png';
+import payment_7 from './payment/payment-7.png';
 
 import bs_1 from './trend/bs-1.jpg';
 import bs_2 from './trend/bs-2.jpg';
@@ -20,6 +23,7 @@ import category2 from './categories/category-2.jpg';
 import category3 from './categories/category-3.jpg';
 import category4 from './categories/category-4.jpg';
 import category5 from './categories/category-5.jpg';
+import category7 from './categories/category-7.png';
 
 import product1 from './product/product-1.jpg';
 import product2 from './product/product-2.jpg';
@@ -52,6 +56,7 @@ export default {
     category3,
     category4,
     category5,
+    category7,
     product1,
     product2,
     product3,
@@ -60,6 +65,9 @@ export default {
     product6,
     product7,
     product8,
+    payment_5,
+    payment_6,
+    payment_7,
 };
 
 

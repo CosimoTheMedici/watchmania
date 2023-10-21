@@ -2,6 +2,25 @@ import React from 'react'
 import { images } from '../../../assets/img'
 
 const Footer = () => {
+
+  const circleContainerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '50px', // Set your desired width and height for the circle
+    height: '50px',
+    borderRadius: '50%', // Makes the container a circle
+    backgroundColor: '#ccc', // Background color for the circle, you can change this
+    textDecoration: 'none', // Removes the underline from the link
+  };
+
+  const circleImageStyle = {
+    width: '80%', // Set the width of the image to 80% of the circle
+    height: 'auto', // Maintain the aspect ratio of the image
+    borderRadius: '50%', // Makes the image inside the circle
+    display: 'block', // Removes extra space below the image
+  };
+
   return (
     <>
      {/* <!-- Footer Section Begin --> */}
@@ -16,24 +35,29 @@ const Footer = () => {
                   </a>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt cilisis.
+                 Secure Payment Modes.
                 </p>
-                <div class="footer__payment">
+                <div class="footer__payment" style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
                   <a href="#">
                     <img src={images.payment_1} alt="" />
                   </a>
                   <a href="#">
                     <img src={images.payment_2} alt="" />
                   </a>
-                  <a href="#">
-                    <img src={images.payment_3} alt="" />
+                  <a href="#" style={circleContainerStyle}>
+                    <img src={images.payment_3} alt="" style={circleImageStyle} />
                   </a>
                   <a href="#">
                     <img src={images.payment_4} alt="" />
                   </a>
-                  <a href="#">
-                    <img src={images.payment_5} alt="" />
+                  <a href="#"style={circleContainerStyle}>
+                    <img src={images.payment_5} alt="" style={circleImageStyle} />
+                  </a>
+                  <a href="#"style={circleContainerStyle}>
+                    <img src={images.payment_6} alt="" style={circleImageStyle} />
+                  </a>
+                  <a href="#" style={circleContainerStyle}>
+                    <img src={images.payment_7} alt=""style={circleImageStyle}  />
                   </a>
                 </div>
               </div>
@@ -112,10 +136,10 @@ const Footer = () => {
                 <p>
                   Copyright &copy;{" "}
                   <script>document.write(new Date().getFullYear());</script> All
-                  rights reserved | This template is made with{" "}
+                  rights reserved | Made with{" "}
                   <i class="fa fa-heart" aria-hidden="true"></i> by{" "}
-                  <a href="https://colorlib.com" target="_blank">
-                    Colorlib
+                  <a href="https://capitalhustle.com" target="_blank">
+                    Capital Hustle
                   </a>
                 </p>
               </div>

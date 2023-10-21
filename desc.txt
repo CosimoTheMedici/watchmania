@@ -40,18 +40,15 @@ chart-peity.html
 name 
 small description
 price
-available colors
-available sizes
+available colors [] 
+available sizes []
 promotions
-images
+images [color [color images]]
 description
 specification
 reviews(2)
 tag
-related  products
-main image     
-images       
-              
+main image              
          
                    
 
