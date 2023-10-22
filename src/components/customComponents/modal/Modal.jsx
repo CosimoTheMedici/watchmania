@@ -17,6 +17,7 @@ export default function ModalComponent({
         onHide={handleClose}
         animation={false}
         style={{ width: width }}
+        centered
       >
         <Modal.Header>
           <Modal.Title>{modaalTitle}</Modal.Title>
