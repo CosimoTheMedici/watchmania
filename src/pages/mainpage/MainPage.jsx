@@ -1,34 +1,49 @@
-import React,{ useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { images } from "../../assets/img";
 import { ProductCards } from "../../components/customComponents";
 import { items } from "../../utils/testArray";
 import ModalComponent from "../../components/customComponents/modal/Modal";
 import { Insta, Trends } from "../../features";
 import MainLayoutAuth from "../../layout/layouts/mainLayoutAuth";
-import Gallery from 'react-image-gallery';
-
+import Gallery from "react-image-gallery";
+import config from "../../utils/config.json";
+import axios from "axios";
 
 const MainPage = () => {
+  const [productsData, setProductsData] = useState([]);
   useEffect(() => {
-    window.scrollTo(0, 0);
-    console.log("we landed")
+    handleGetProduct();
   }, []);
+
   const handleToggleViewProduct = (item = {}) => {
     //setCurrentViewRecord(item);
     //setModalViewProduct(!modalViewProduct);
     console.log("item  ->>>>", item);
   };
+  const handleGetProduct = () => {
+    axios
+      .get(`${config.apiServiceBaseUrl}api/v1/watchmania/get/products`)
+      //.then(response => response.json())
 
-    const randomIterations = shuffleArray(items).slice(0, 8);
+      .then((datas) => {
+        setProductsData(datas.data.data);
+        //console.log("data",datas.data.data); // Handle the received data here
+      })
+      .catch((error) => {
+        console.log("Error:", error);
+      });
+  };
 
-function shuffleArray(array) {
-  // Shuffle array using Fisher-Yates algorithm
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+  const randomIterations = shuffleArray(items).slice(0, 8);
+
+  function shuffleArray(array) {
+    // Shuffle array using Fisher-Yates algorithm
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
   }
-  return array;
-}
   return (
     <>
       {/* <!-- Page Preloder --> */}
@@ -37,7 +52,7 @@ function shuffleArray(array) {
     </div> */}
 
       {/* <!-- Offcanvas Menu Begin --> */}
-   
+
       {/* <!-- Header Section End --> */}
 
       {/* <!-- Categories Section Begin --> */}
@@ -131,8 +146,7 @@ function shuffleArray(array) {
 
       {/* <!-- Product Section Begin --> */}
       <section class="product spad">
-        <div
-          class="container">
+        <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-4">
               <div class="section-title">
@@ -149,18 +163,14 @@ function shuffleArray(array) {
                 <li data-filter=".kid">Teens</li>
                 <li data-filter=".kid">Kid’s</li>
                 <li data-filter=".accessories">Accessories</li>
-                
               </ul>
             </div>
           </div>
           <div class="row property__gallery">
+            {randomIterations.map((item, index) => (
+              <ProductCards key={index} data={item} />
+            ))}
 
-          {randomIterations.map((item, index) => (
-        
-        <ProductCards key={index} data={Object.values(item)} />
-
-      ))}
-          
             {/* <div class="col-lg-3 col-md-4 col-sm-6 mix men   .values(item)">
               <div class="product__item">
                 <div
@@ -567,11 +577,8 @@ function shuffleArray(array) {
 
       {/* <!-- Instagram Begin --> */}
       {/* <Insta /> */}
-     
-      {/* <!-- Instagram End --> */}
 
-   
-     
+      {/* <!-- Instagram End --> */}
     </>
   );
 };

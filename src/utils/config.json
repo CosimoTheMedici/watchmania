@@ -1,0 +1,9 @@
+{
+  "apiServiceBaseUrl": "https://hair-be-cutter.vercel.app/api/v1/watchmania/",
+  "appsServiceBaseUrl": "https://eq-billingportal-api-uat.azurewebsites.net/",
+  "userServiceOmniBaseURL": "https://api-omnichannel-uat.azure-api.net/biller/api",
+  "usertranOmniBaseURL": "https://eq-billingportal-api-uat.azurewebsites.net",
+  "OcpApimSubscriptionKey": "d17b608e045e4a67a57320186cc440bb",
+  "login": "https://eq-billingportal-api-uat.azurewebsites.net/user/login/",
+  "billerManager": "https://eq-billingportal-api-uat.azurewebsites.net/"
+}

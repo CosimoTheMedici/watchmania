@@ -8,6 +8,7 @@ export const TrendCards = () => {
 <>
     {randomIterations.map((item, index) => (
         <Link 
+        key={index}
         to={{
           pathname: '/productDetails',
           state: { data: "dataToSend" }
